@@ -28,9 +28,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Enable storing and querying data from Local Datastore. 
         // Remove this line if you don't want to use Local Datastore features or want to use cachePolicy.
         Parse.enableLocalDatastore()
-
-        Parse.setApplicationId("PV6GndXzAZ2q3hyIdb7TneJkkOBfhDjZfAKLCkds",
-            clientKey: "U4PSOJkHQ7UTWGxC23RUo6rBqiLbewsvD4D23igz")
+        
+        var keys: NSDictionary?
+        
+        if let path = NSBundle.mainBundle().pathForResource("Keys", ofType: "plist") {
+            keys = NSDictionary(contentsOfFile: path)
+        }
+        
+        if let _ = keys {
+            let applicationId = keys?["parseApplicationId"] as? String
+            let clientKey = keys?["parseClientKey"] as? String
+            
+            // Initialize Parse.
+            Parse.setApplicationId(applicationId!, clientKey: clientKey!)
+        }
         
         PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
 

@@ -19,15 +19,16 @@
 		81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */; };
 		81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */; };
 		81BA81811A49E10C00E65899 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81801A49E10C00E65899 /* ParseUI.framework */; };
-		B3A6E1301B9BA347003EEEDF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A6E12D1B9BA347003EEEDF /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
-		B3A6E1311B9BA347003EEEDF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A6E12E1B9BA347003EEEDF /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
-		B3A6E1321B9BA347003EEEDF /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A6E12F1B9BA347003EEEDF /* FBSDKShareKit.framework */; settings = {ASSET_TAGS = (); }; };
-		B3A6E1341B9BA475003EEEDF /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A6E1331B9BA475003EEEDF /* ParseFacebookUtilsV4.framework */; settings = {ASSET_TAGS = (); }; };
-		B3A6E1361B9BA5BB003EEEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A6E1351B9BA5BB003EEEDF /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		B3A6E13A1B9BAEF3003EEEDF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E1391B9BAEF3003EEEDF /* SignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		B3A6E13E1B9BBEBC003EEEDF /* SwipingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E13D1B9BBEBC003EEEDF /* SwipingViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		B3A6E1401B9BD706003EEEDF /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E13F1B9BD706003EEEDF /* ContactsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		B3C11F561B9CEB0500D57C03 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C11F551B9CEB0500D57C03 /* button.png */; settings = {ASSET_TAGS = (); }; };
+		B363F9B21BBF5BF7003BA603 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = B363F9B11BBF5BF7003BA603 /* Keys.plist */; };
+		B3A6E1301B9BA347003EEEDF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A6E12D1B9BA347003EEEDF /* FBSDKCoreKit.framework */; };
+		B3A6E1311B9BA347003EEEDF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A6E12E1B9BA347003EEEDF /* FBSDKLoginKit.framework */; };
+		B3A6E1321B9BA347003EEEDF /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A6E12F1B9BA347003EEEDF /* FBSDKShareKit.framework */; };
+		B3A6E1341B9BA475003EEEDF /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A6E1331B9BA475003EEEDF /* ParseFacebookUtilsV4.framework */; };
+		B3A6E1361B9BA5BB003EEEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A6E1351B9BA5BB003EEEDF /* LaunchScreen.storyboard */; };
+		B3A6E13A1B9BAEF3003EEEDF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E1391B9BAEF3003EEEDF /* SignUpViewController.swift */; };
+		B3A6E13E1B9BBEBC003EEEDF /* SwipingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E13D1B9BBEBC003EEEDF /* SwipingViewController.swift */; };
+		B3A6E1401B9BD706003EEEDF /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E13F1B9BD706003EEEDF /* ContactsTableViewController.swift */; };
+		B3C11F561B9CEB0500D57C03 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C11F551B9CEB0500D57C03 /* button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		81BA81801A49E10C00E65899 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		81BA81821A49E27F00E65899 /* ParseStarterProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ParseStarterProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		B363F9B11BBF5BF7003BA603 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 		B3A6E12D1B9BA347003EEEDF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../FacebookSDKs-iOS-20150813/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		B3A6E12E1B9BA347003EEEDF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../FacebookSDKs-iOS-20150813/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		B3A6E12F1B9BA347003EEEDF /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../FacebookSDKs-iOS-20150813/FBSDKShareKit.framework"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				81BA81491A49DA1800E65899 /* Info.plist */,
 				81BA81821A49E27F00E65899 /* ParseStarterProject-Bridging-Header.h */,
+				B363F9B11BBF5BF7003BA603 /* Keys.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				B3C11F561B9CEB0500D57C03 /* button.png in Resources */,
 				81BA81501A49DA1800E65899 /* Main.storyboard in Resources */,
 				81BA81521A49DA1800E65899 /* Images.xcassets in Resources */,
+				B363F9B21BBF5BF7003BA603 /* Keys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
